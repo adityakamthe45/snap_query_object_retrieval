@@ -11,8 +11,6 @@ There are two separate steps.
 1. `run_inference.py` runs a pretrained YOLOv11m model on every image and saves the detections to `metadata.json`. For each image it stores the class, confidence, bounding box and a count per class.
 2. `app.py` only reads `metadata.json`. You pick classes, choose OR/AND, optionally set a max count, and it filters the metadata and shows the matching images with boxes drawn on them.
 
-The model is not run when you search, so the app is quick and light.
-
 ## Project layout
 
 ```
