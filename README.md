@@ -1,6 +1,6 @@
 # Image search with YOLOv11
 
-A small Streamlit app to search a folder of images by the objects in them. For example, "images with a person and a dog" or "images with at most 2 cars".
+A project to search a folder of images by the objects in them. For example, "images with a person and a dog" or "images with at most 2 cars".
 
 I used the 500 image subset of COCO val 2017 as the dataset (kept in `data_for_prj`).
 
